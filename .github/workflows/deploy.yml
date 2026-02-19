@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.Robstep6768 }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.robstep4life }}/todo-api:latest .
+        run: docker build -t ${{ secrets.Robstep6768 }}/todo-api:latest .
 
       - name: Push Docker image
         run: docker push ${{ secrets.Robstep6768 }}/todo-api:latest
